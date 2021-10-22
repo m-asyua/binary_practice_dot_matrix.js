@@ -1,1 +1,1 @@
-# why_do_we_learn_binary.js
+# binary_practice_dot_matrix.js
