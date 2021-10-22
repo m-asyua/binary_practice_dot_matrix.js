@@ -1,0 +1,73 @@
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
+
+<script src="./binary_practice_dot_matrix.js"></script>
+
+<body>
+
+<hr>
+
+<br>
+binary_practice_dot_matrix.js<br>
+<br>
+
+<img src="binary_light.gif" width="280">
+<br>
+
+<hr>
+
+Please input a decimal number:<br>
+<br>
+
+
+Hint:  6, 9, 15....<br>
+<table><tr><td><div id="location_a"></div></td><td><img src="a.png" width="96" ></td></tr></table>
+
+<br>
+<table><tr><td><div id="location_b"></div></td><td><img src="b.png" width="96" ></td></tr></table>
+
+<br>
+<table><tr><td><div id="location_c"></div></td><td><img src="c.png" width="96" ></td></tr></table>
+
+<br>
+<div id="location_d"></div><br>
+<br>
+<div id="location_e"></div><br>
+<br>
+<div id="location_f"></div><br>
+<br>
+<div id="location_g"></div><br>
+<br>
+<br>
+
+
+<script>
+
+function setup(){
+
+	document.getElementById("location_a").innerHTML =  make_table("a",5,4, "<img src='off.png' width='20' height='20'>");
+	document.getElementById("location_b").innerHTML =  make_table("b",5,4, "<img src='off.png' width='20' height='20'>");
+	document.getElementById("location_c").innerHTML =  make_table("c",5,4, "<img src='off.png' width='20' height='20'>");
+	document.getElementById("location_d").innerHTML =  make_table("d",5,4, "<img src='off.png' width='20' height='20'>");
+	document.getElementById("location_e").innerHTML =  make_table("e",5,4, "<img src='off.png' width='20' height='20'>");
+	document.getElementById("location_f").innerHTML =  make_table("f",5,4, "<img src='off.png' width='20' height='20'>");
+	document.getElementById("location_g").innerHTML =  make_table("g",5,4, "<img src='off.png' width='20' height='20'>");
+
+	event_set("a",5,4,"<img src='on.png'  width='20' height='20'>","<img src='off.png' width='20' height='20'>");
+	event_set("b",5,4,"<img src='on.png'  width='20' height='20'>","<img src='off.png' width='20' height='20'>");
+	event_set("c",5,4,"<img src='on.png'  width='20' height='20'>","<img src='off.png' width='20' height='20'>");
+	event_set("d",5,4,"<img src='on.png'  width='20' height='20'>","<img src='off.png' width='20' height='20'>");
+	event_set("e",5,4,"<img src='on2.png' width='20' height='20'>","<img src='off.png' width='20' height='20'>");
+	event_set("f",5,4,"<img src='on.png'  width='20' height='20'>","<img src='off.png' width='20' height='20'>");
+	event_set("g",5,4,"<img src='on2.png' width='20' height='20'>","<img src='off.png' width='20' height='20'>");
+
+}
+
+
+</script>
+
+</body>
+
+</html>
